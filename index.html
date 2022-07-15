@@ -4,18 +4,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>dedywd_tablequest</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    table, th, td{
+      border: 2px solid red;
+      border-collapse: collapse;
+    }
+
+    tr{
+      height: 50px;
+    }
+
+    tr:hover {
+      background-color: #cd848f;
+    }
+  </style>
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <div>
+    <h1>Creating a Table</h1>
+  </div>
+  <div>
+    <table style="width: 80%">
+      <tr>
+        <th style="width: 50%">A</th>
+        <th>B</th>
+        <th>C</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td rowspan="2"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
 
- <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+
+  <script src="script.js"></script> 
 </body>
 
 </html>
